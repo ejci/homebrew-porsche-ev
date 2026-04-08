@@ -16,8 +16,8 @@ jobs:
         uses: Homebrew/actions/setup-homebrew@main
       - name: Homebrew Audit
         run: |
-          brew audit --strict --online --tap ejci/porsche-ev
+          brew audit --strict --online ejci/porsche-ev/porsche-ev
       - name: Homebrew Test
         run: |
-          brew install --build-from-source Formula/porsche-ev.rb
+          brew install --build-from-source ejci/porsche-ev/porsche-ev
           brew test porsche-ev
