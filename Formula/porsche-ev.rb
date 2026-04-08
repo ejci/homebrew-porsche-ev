@@ -1,3 +1,5 @@
+require "language/node"
+
 class PorscheEv < Formula
   desc "Porsche Connect CLI & TUI Dashboard"
   homepage "https://github.com/ejci/porsche-ev"
