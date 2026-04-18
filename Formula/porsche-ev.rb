@@ -9,9 +9,6 @@ class PorscheEv < Formula
   depends_on "node"
 
   def install
-    # Fix broken shebang in upstream source
-    inreplace "app.js", "#!/usr/bin / env node", "#!/usr/bin/env node"
-
     system "npm", "install", *std_npm_args(prefix: libexec)
     bin.install_symlink Dir["#{libexec}/bin/*"]
   end
