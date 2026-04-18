@@ -1,8 +1,8 @@
 class PorscheEv < Formula
   desc "Porsche Connect CLI & TUI Dashboard"
   homepage "https://github.com/ejci/porsche-ev"
-  url "https://github.com/ejci/porsche-ev/archive/d2a695a555acd5908f25ae14cb251489b3929c48.tar.gz"
-  sha256 "0c13ab288009ab938d959ba2758b3bb289ad99c2b4534c5b50fb506f2081e3be"
+  url "https://github.com/ejci/porsche-ev/archive/11666e97b04eefc3c20d87735c2e4d116bf30c6c.tar.gz"
+  sha256 "9d641adb1205d32debc40a33f98d44fb1eb50d4f3d61c096f482d54911cdceeb"
   license "MIT"
 
   depends_on "node"
